@@ -6,3 +6,5 @@ btn.addEventListener('click', () => {
     nav.classList.toggle('flex')
     nav.classList.toggle('hidden')
 })
+ document.querySelector("#current-year").textContent =
+        new Date().getFullYear();
