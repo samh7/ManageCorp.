@@ -16,6 +16,7 @@ jobs:
           mkdir -p deploy
           cp index.html deploy/
           cp dist/output.css deploy/
+          cp js/script.js deploy/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
